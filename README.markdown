@@ -10,4 +10,4 @@ It makes more sense to put this file in Git so that I can keep it updated and pu
 ### Usage ####
 
 1. Simply pull down this _bass.sass file into your project. Usually the same dir/ as your main project SASS file.
-2. Add @import "_base" to the head of your working SASS file. If you don't put this in the same folder, then simply point to the file e.g. @import "theyre/on/dantoine/_bass.sass"
+2. Add \*@import "_base"\* to the head of your working SASS file. If you don't put this in the same folder, then simply point to the file e.g. \*@import "theyre/on/dantoine/_bass.sass"\*
