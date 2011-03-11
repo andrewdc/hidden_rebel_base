@@ -7,9 +7,19 @@ It makes more sense to put this file in Git so that I can keep it updated and pu
 
 -Adc
 
-### Usage ####
+## Setup ##
 
 1. Simply pull down this _bass.sass file into your project. Usually the same dir/ as your main project SASS file.
+'git checkout git@github.com:andrewdc/hidden_rebel_base.git'
+
 2. Add @import "\_base" to the head of your working SASS file. If you don't put this in the same folder, then simply point to the file e.g. 
 
 `@import "theyre/on/dantoine/_bass.sass"`
+
+Documentation
+-------------
+
+
+
+
+Ps. And yes, I use the old indented sass syntax. It just works for me. Sorry for the inconvenience if you roll with the newer scss. Perhaps I'll whip together a scss version of these in the future. Bug me about it... ;)
