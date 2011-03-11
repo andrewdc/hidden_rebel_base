@@ -1,4 +1,4 @@
-Hidden Rebel _Base.sass
+And now, your highness, we will discuss the location of your hidden rebel _base.sass
 =======================
 
 Well, what can I say. I use StaticMatic to generate rapid UI prototypes and every-time I start a new one I find myself having to re-do my _base.sass partial file, or paste it from a previous project. Hunting around for it gets kind of annoying. 
