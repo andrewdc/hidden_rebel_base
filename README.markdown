@@ -14,7 +14,7 @@ It makes more sense to put this file in Git so that I can keep it updated and pu
 
 2. Add @import "\_base" to the head of your working SASS file. If you don't put this in the same folder, then simply point to the file e.g. 
 
-      @import "theyre/on/dantoine/_bass.sass"
+     @import "theyre/on/dantoine/_bass.sass"
 
 ## Documentation
 
