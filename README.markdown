@@ -19,7 +19,18 @@ It makes more sense to put this file in Git so that I can keep it updated and pu
 Documentation
 -------------
 
+#### Clearfix
 
+Applies to the :after psuedo-class so you know, watch your back on this one a little with a certain browser.
 
+     @mixin clearfix
+     
+     
+#### Linear Gradiant + Background image (optional)
+
+Start with top color and go to bottom color. If you want an image over top, add this in with any or all of the full `background:url() repeat x-pos y-pos;`. This is optional, so not providing the third argument won't do a ruttin' thang!
+
+    @mixin lin-grad($from, $to, $bga: url())
+    
 
 Ps. And yes, I use the old indented sass syntax. It just works for me. Sorry for the inconvenience if you roll with the newer scss. Perhaps I'll whip together a scss version of these in the future. Bug me about it... ;)
