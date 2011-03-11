@@ -31,13 +31,8 @@ Start with top color and go to bottom color. If you want an image over top, add 
 
     @mixin lin-grad($from, $to, $bga: url())
     
-### Linear Gradiant + Background image (optional)
-
-Start with top color and go to bottom color. If you want an image over top, add this in with any or all of the full `background:url() repeat x-pos y-pos;`. This is optional, so not providing the third argument won't do a ruttin' thang!
-
-    @mixin lin-grad($from, $to, $bga: url())  
-    
+### more to come....   
       
-### What the crap is with the indenting?
+## What the crap is with the indenting?
 
 ...Yes, I use the older indented sass syntax. That is because it pwnes the face off the newer syntax. But that's just me. Sorry for the inconvenience if you roll with the newer scss. Perhaps I'll whip together a scss version of these in the future. Bug me about it... ;)
