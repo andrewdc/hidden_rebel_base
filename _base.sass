@@ -35,11 +35,28 @@
   -moz-box-shadow: $x $y $blur $color
   box-shadow: $x $y $blur $color
 
-@mixin borderRadius($radius: 5px)	
-  -moz-border-radius: $radius
-  -webkit-border-radius: $radius
-  border-radius: $radius
+//Border Radius for each corner. Starts in the TopLeft and goes clockwise
+@mixin borderRadius($tleft: 3px , $tright: 3px , $bright: 3px , $bleft: 3px)
+  -moz-border-radius-topleft: $tleft
+  -moz-border-radius-topright: $tright
+  -moz-border-radius-bottomright: $bright
+  -moz-border-radius-bottomleft: $bleft
+  -webkit-border-top-left-radius: $tleft
+  -webkit-border-top-right-radius: $tright
+  -webkit-border-bottom-right-radius: $bright
+  -webkit-border-bottom-left-radius: $bleft	
+  border-radius: $tleft, $tright, $bright, $bleft
   -webkit-background-clip: padding-box
+
+//Image Replacement - Leave the text in the html but replace it with an image
+@mixin img_replace($imgurl, $width, $height)
+  width: $width
+  height: $height
+  background: url('#{$imgurl}') no-repeat
+  text-indent: -9999px
+  overflow: hidden
+  letter-spacing: -1000em  
+
 
 @mixin singleCornerRadius($side,$vert,$width: 5px)
   -moz-border-radius-#{$vert}#{$side}: $width
