@@ -11,7 +11,7 @@ It makes more sense to put this file in Git so that I can keep it updated and pu
 
 1. Simply pull down this _bass.sass file into your project. Usually the same dir/ as your main project SASS file.
 
-     `git checkout git@github.com:andrewdc/hidden_rebel_base.git`
+     `git clone git://github.com/andrewdc/hidden_rebel_base.git`
 
 2. Add @import "\_base" to the head of your working SASS file. If you don't put this in the same folder, then simply point to the file e.g. 
 
