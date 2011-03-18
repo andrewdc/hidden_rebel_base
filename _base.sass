@@ -12,7 +12,14 @@
     :clear both
     :visibility hidden
     :line-height 0
-    :height 0
+    :height 0 
+
+//Truncate a String with Ellipsis (Note: FireFail will just chop the string..I find the lack of support...disturbing.)    
+@mixin truncate($wid: 100px)        
+  width: $wid
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 
 //Linear Gradient that allows for optional image background also as third argument    
 @mixin lin-grad($from, $to, $bga: url())
@@ -30,6 +37,7 @@
   background-attachment: $attach
   background-image: url(#{$img})
 
+//Box Shadow ftw
 @mixin boxShadow($x: 5px,$y: 5px,$blur: 5px,$color: #000)
   -webkit-box-shadow: $x $y $blur $color
   -moz-box-shadow: $x $y $blur $color
