@@ -17,9 +17,9 @@
 //Truncate a String with Ellipsis (Note: FireFail will just chop the string..I find the lack of support...disturbing.)    
 @mixin truncate($wid: 100px)        
   width: $wid
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: nowrap
+  overflow: hidden
+  text-overflow: ellipsis
 
 //Linear Gradient that allows for optional image background also as third argument    
 @mixin lin-grad($from, $to, $bga: url())
@@ -85,4 +85,4 @@
 
 @mixin noSideBorderRadius($side)
   @include singleCornerRadius($side,"top",0)
-  @include singleCornerRadius($side,"bottom",0)  
+  @include singleCornerRadius($side,"bottom",0)
