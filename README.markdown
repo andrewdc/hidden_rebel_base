@@ -5,7 +5,7 @@ Well, what can I say. I use StaticMatic to generate rapid UI prototypes and ever
 
 It makes more sense to put this file in Git so that I can keep it updated and pull/push it from a public source. Feel free to fork this, add, steal - whatever you would like!
 
-*Note* I altered the deal, by renaming `\_base.sass` to `_hidden_rebel_base.sass` so you won't stomp an exsisting `_base.sass` file...Pray I don't alter it further.
+*Note*: I altered the deal, by renaming `_base.sass` to `_hidden_rebel_base.sass` so you won't stomp an exsisting `_base.sass` file...Pray I don't alter it further.
 
 -Adc
 
